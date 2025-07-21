@@ -6,4 +6,4 @@ Created on Mon Dec  7 12:59:48 2020
 """
 
 import collections
-print([item for item, count in collections.Counter(quadstxt).items() if count > 1])
+print([item for item, count in collections.Counter(quadtxt).items() if count > 1])
